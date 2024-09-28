@@ -46,7 +46,7 @@ Esto producirá un archivo llamado `voter_records.csv` en el directorio actual q
 
 | `NumeroElectoral` | `Category` | `FechaNacimiento` | `Precinto` | `Status` | `Unidad` |
 | ----------------- | ---------- | ----------------- | ---------- | -------- | -------- |
-| `4980113`         | `1`        | `22-10-1926`      | `1`        | `E`      | `2`      |
+| `4980113`         | `M`        | `22-10-1926`      | `1`        | `E`      | `2`      |
 
 
 ### Descripción de `Category` y `Status`
