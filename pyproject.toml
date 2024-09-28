@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ceepur-scraper"
+version = "0.1.0"
+description = "Un programa para extraer todos los datos públicos del registro electoral de Puerto Rico, accesibles a través de https://consulta.ceepur.org/"
+authors = ["J.I. Cruz <ji@jicruz.com>"]
+readme = "README.md"
+homepage = "https://github.com/jicruz96/ceepur-scraper"
+repository = "https://github.com/jicruz96/ceepur-scraper"
+keywords = ["puerto-rico", "electoral", "scraper", "ceepur"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.10.7"
+random-user-agent = "^1.0.1"
+xmltodict = "^0.13.0"
+tqdm = "^4.66.5"
+
+[tool.poetry.scripts]
+ceepur-scraper = "ceepur_scraper:main"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.8"
+
+[tool.ruff]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
