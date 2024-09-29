@@ -51,13 +51,9 @@ Esto producirá un archivo llamado `voter_records.csv` en el directorio actual q
 
 ### Descripción de `Category` y `Status`
 
-El campo `Category` es un solo caracter.
+El campo `Category` es un solo carácter. Su significado depende del valor de `Status`.
 
-Su significado depende del valor de `Status`.
-
-Consulte la próxima sección para ver el significado de cada categoría.
-
-#### Alternativamente puedes correr el scraper con la opción `--save-descriptions` para guardar una descripción de cada categoría en el archivo final (⚠️ ¡Esto aumentará el tamaño del archivo significativamente!).
+Expanda la siguiente sección para ver el significado de cada categoría:
 
 <details>
 <summary>Haz click para expandir...</summary>
@@ -98,6 +94,9 @@ El campo `Category` da más información acerca del `Status` de un elector:
   * `T`: `INCAPACITADO MENTAL`
 
 </details>
+
+
+También puedes correr el scraper con la opción `--save-descriptions` para guardar una descripción de cada categoría en el archivo final (⚠️ ¡Esto aumentará el tamaño del archivo significativamente!).
 
 
 ### ¿Qué hacer si hay un error?
