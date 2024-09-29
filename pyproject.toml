@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ceepur-scraper"
-version = "0.1.0"
+version = "0.1.1"
 description = "Un programa para extraer todos los datos públicos del registro electoral de Puerto Rico, accesibles a través de https://consulta.ceepur.org/"
 authors = ["J.I. Cruz <ji@jicruz.com>"]
 readme = "README.md"
